@@ -1,12 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Inspiration&display=swap');
+
+*{
+    box-sizing:content-box ;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  overflow-x: hidden;
+    font-family: 'Inconsolata', monospace;  
 }
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    background-color: #474c52;
+    color: white;  
+    padding:10px;
+    
+}
+
+.brand{
+    margin-top:33px;
+    margin-left:10px;
+}
+
+.menu {
+       display:flex; 
+       justify-content: space-between;
+}
+.menu li {
+    display:flex;
+    list-style-type: none;
+}
+
+.menu a{
+    width: 25px;
+    height: 35px;
+    display:flex; 
+    text-decoration: none;  
+    padding:20px;
+    
+}
+ /*#login-btn{
+    width:20px;
+    height:20px;
+    color: #198754;
+    background-color: #5b646c;
+    border-radius: 8px ;
+    border: 3px solid #198754 ;
+    margin:17px ;
+    justify-content: center;
+}*/
+.container img{
+    justify-content: center;
+    border: 3px solid;
+    width:95%;
+    height:95%;
+    border-radius: 10px;
+    margin:5px;
+}
+
